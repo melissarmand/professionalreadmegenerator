@@ -5,8 +5,7 @@ const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
-const questions=() => {
-    return inquirer.prompt ([ {
+const questions= [ {
         type: 'input',
         name: 'titleofProject',
         message: 'What is the title of your project?',
@@ -29,20 +28,28 @@ const questions=() => {
      },
      {  type: 'input',
         name: 'license',
-        message: 'Please add any licenses used for this project'
+        message: 'Please add any licenses used for this project.'
      },
         
-    ])
-};
+    ]
+;
 
 
 // TODO: Create a function to write README file
-function writeToFile('generateMarkdown.js', generateMarkdown) {
-    fs.writeFile('generateMarkdown', generateMarkdown)
-}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+        .then((answers) => {
+            console.log(answers)
+        const generateReadMe = generateMarkdown(answers);
+
+            fs.writeFile('generateMarkdown.js', generateReadMe, (error) =>
+                error ? console.log(err) : console.log('Your readMe has been generated!'));
+            
+        })
+
+}
 
 // const init = () => {
     // promptUser()
@@ -51,4 +58,4 @@ function init() {}
     //   .catch((err) => console.error(err));
 //   };
 // Function call to initialize app
-init();
+init()
