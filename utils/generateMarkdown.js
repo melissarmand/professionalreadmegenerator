@@ -12,7 +12,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(answers) {
-  return `## Title ${answers.titleofProject}
+  return `## Title ${answers.titleofPSroject}
 
   ## Description
   🔍 ${answers.description}
