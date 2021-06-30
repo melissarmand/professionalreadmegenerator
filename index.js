@@ -28,7 +28,15 @@ const questions= [ {
      },
      {  type: 'list',
         name: 'license',
-        message: 'Please add any licenses used for this project.'
+        message: 'Please choose the license used for this project:',
+        choices: [
+            'Apache',
+            'IBM',
+            'MIT',
+            'Mozilla',
+            'ODbL',
+            'WTFPL',
+    ]
      },
         
     ]
