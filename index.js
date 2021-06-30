@@ -26,7 +26,7 @@ const questions= [ {
          name: 'credits',
          message: 'List your collaborators, if any, and any tutorials you may have used.',
      },
-     {  type: 'input',
+     {  type: 'list',
         name: 'license',
         message: 'Please add any licenses used for this project.'
      },
@@ -42,11 +42,13 @@ function init() {
     inquirer.prompt(questions)
         .then((answers) => {
             console.log(answers)
-        const generateReadMe = generateMarkdown(answers);
+        const generateReadMe = generateMarkdown(answers)
 
-            fs.writeFile('generateMarkdown.js', generateReadMe, (error) =>
-                error ? console.log(err) : console.log('Your readMe has been generated!'));
-            
+            fs.writeFile('./utils/readMeTemplate.md', generateReadMe, (error) =>
+                error ? console.log(err) : console.log('Your readMe has been generated!'))
+            .catch(err => {
+                console.log(err)
+            });
         })
 
 }
