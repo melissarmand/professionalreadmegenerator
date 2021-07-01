@@ -26,6 +26,19 @@ const questions= [ {
          name: 'credits',
          message: 'List your collaborators, if any, and any tutorials you may have used.',
      },
+
+     {
+         type: 'input',
+         name: 'usage',
+         message: 'How will this project be used?',
+     },
+     
+     {
+         type: 'input',
+         name: 'tests',
+         message: 'What tests will need to be run to ensure this project is functioning correctly?',
+     },
+
      {  type: 'list',
         name: 'license',
         message: 'Please choose the license used for this project:',
@@ -38,7 +51,18 @@ const questions= [ {
             'WTFPL',
     ]
      },
-        
+
+     {
+         type: 'input',
+         name: 'questions',
+         message: 'Please enter your GitHub Repository name.',
+     },
+       
+     {
+         type: 'input',
+         name: 'questions2',
+         message: 'Please enter your email address to contact you with any questions regarding this project.'
+     }
     ]
 ;
 

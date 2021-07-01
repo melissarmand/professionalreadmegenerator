@@ -68,8 +68,10 @@ function generateMarkdown(answers) {
   💾 ${answers.installation}
 
   ## Usage
+      ${answers.usage}
 
   ## Tests
+      ${answers.tests}
 
   ## Credit
   👪 ${answers.credits}
@@ -78,6 +80,9 @@ function generateMarkdown(answers) {
   ${answers.license}
 
   ## Questions
+
+    [${answers.questions}](answers.link)
+    ${answers.questions2}
 `;
 }
 
