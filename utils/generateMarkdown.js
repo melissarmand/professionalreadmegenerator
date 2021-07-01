@@ -1,3 +1,4 @@
+//Links the license.js to this file for the badges
 const licenseBadgeLinks = require('./licensebadges')
 
 
@@ -8,36 +9,36 @@ function generateMarkdown(answers) {
   return `## ${answers.titleofProject}
 
   ## Table of Contents
-  -[Description](#description) <br>
-  -[Installation](#installation) <br>
-  -[Usage](#usage) <br>
-  -[Tests](#tests) <br>
-  -[Credit](#credit) <br>
-  -[License](#license) <br>
-  -[Questions](#questions)
+  - [Description](#description) <br>
+  - [Installation](#installation) <br>
+  - [Usage](#usage) <br>
+  - [Tests](#tests) <br>
+  - [Credit](#credit) <br>
+  - [License](#license) <br>
+  - [Questions](#questions)
 
   ${answers.licenseBadge}
 
-  ##  🔍 Description
-    ${answers.description}
+  ##   Description
+  🔍 ${answers.description}
 
-  ## 💾 Installation
-   ${answers.installation}
+  ## Installation
+  💾 ${answers.installation}
 
-  ## 💻 Usage
-   ${answers.usage}
+  ## Usage
+  💻  ${answers.usage}
 
-  ## ✏️ Tests
-   ${answers.tests}
+  ## Tests
+  ✏️  ${answers.tests}
 
-  ## 👪 Credit
-   ${answers.credits}
+  ## Credit
+  👪 ${answers.credits}
 
-  ## 🗃️ License
-   ${answers.license}
+  ## License
+  🗃️ This project is covered under the ${answers.license} license.
 
-  ## 🙋 Questions
-   Questions? Please contact me at the links below:
+  ## Questions
+  🙋 Questions? Please contact me at the links below:
 
   📧Email: [${answers.email}](mailto:${answers.email})
   

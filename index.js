@@ -76,9 +76,7 @@ function init() {
 
             fs.writeFile('./utils/readMeTemplate.md', generateReadMe, (error) =>
                 error ? console.log(err) : console.log('Your readMe has been generated!'))
-            .catch(err => {
-                console.log(err)
-            });
+            ;
         })
 
 }

@@ -1,4 +1,4 @@
-# professionalreadmegenerator
+# 09 professionalreadmegenerator
 
 ## My Task
 
@@ -32,4 +32,11 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 ## Deployed project
-![Video of Working Code](assets/Untitled_%20Jul%201,%202021%2012_41%20PM.gif)
+![GIF of Working Code](assets/readme%20generator%20GIF.gif)
+
+[Link to Video](https://drive.google.com/file/d/1gicY3EVJPl2SIICf0AAgTA21siy0nDQF/view)
+
+## Questions
+📧Email: [Melissa Armand](mailto:melissarmand@gmail.com)
+
+🔗GitHub Link: [melissarmand](https://github.com/melissarmand	) 
