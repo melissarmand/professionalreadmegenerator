@@ -1,4 +1,4 @@
-## Title lala
+## ReadMe Generator
 
   ## Table of Contents
   -[Description](#description) <br>
@@ -9,27 +9,31 @@
   -[License](#license) <br>
   -[Questions](#questions)
 
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Description
-  🔍 lalala
+  ##  🔍 Description
+    This is a brief description of hte project.
 
-  ## Installation
-  💾 lalala
+  ## 💾 Installation
+   These are the steps to take to install the packages used in your project.
 
-  ## Usage
-      lalala
+  ## 💻 Usage
+   To generate a readme
 
-  ## Tests
-      undefined
+  ## ✏️ Tests
+   These are the tests to run for the project.
 
-  ## Credit
-  👪 lalala
+  ## 👪 Credit
+   N/A
 
-  ## License
-  Mozilla
+  ## 🗃️ License
+   MIT
 
-  ## Questions
+  ## 🙋 Questions
+   Questions? Please contact me at the links below:
 
-    [Melissa Armand](answers.link)
-    melissarmand@gmail.com
+  📧Email: [melissarmand@gmail.com](mailto:melissarmand@gmail.com)
+  
+  
+  🔗GitHub Link: [](https://github.com/) 
+

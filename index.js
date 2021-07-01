@@ -54,20 +54,18 @@ const questions= [ {
 
      {
          type: 'input',
-         name: 'questions',
+         name: 'github',
          message: 'Please enter your GitHub Repository name.',
      },
        
      {
          type: 'input',
-         name: 'questions2',
+         name: 'email',
          message: 'Please enter your email address to contact you with any questions regarding this project.'
      }
     ]
 ;
 
-
-// TODO: Create a function to write README file
 
 // TODO: Create a function to initialize app
 function init() {
@@ -85,11 +83,5 @@ function init() {
 
 }
 
-// const init = () => {
-    // promptUser()
-    //   .then((answers) => writeFileAsync('index.html', generateHTML(answers)))
-    //   .then(() => console.log('Successfully wrote to index.html'))
-    //   .catch((err) => console.error(err));
-//   };
 // Function call to initialize app
 init()

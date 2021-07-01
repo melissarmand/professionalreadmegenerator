@@ -31,3 +31,5 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+## Deployed project
+![Video of Working Code](assets/Untitled_%20Jul%201,%202021%2012_41%20PM.gif)
